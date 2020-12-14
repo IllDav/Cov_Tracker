@@ -81,7 +81,7 @@ body{
     cursor: pointer;
 }
 
-/*Table*/
+/*TIMELINE*/
 
 .table100{
   background-color: #fff;
@@ -199,7 +199,7 @@ th, td{
 }
 
 
-/*COUNTRIES*/
+/*INDEX*/
 
 #LocHead{
   display: block;
@@ -217,23 +217,42 @@ th, td{
 }
 
 .infobox{
-  display: inline-block;
+  display: block;
   border-bottom: 2px solid grey;
   padding: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   text-align: center;
   margin: auto;
   margin-top: 10px;
-  float: left;
-  width: 28%;
+  float: center;
+  width: 40%;
 }
 
-.row{
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+.infobox h2{
+    font-size: 40px;
+    margin-bottom: 15px;
 }
+
+/*NEWS*/
+
+#newsblock{
+    display: block;
+    width: 100%;
+    background-color: red;
+}
+
+.articlepart{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    width: 60%;
+    background-color: yellow;
+}
+
+
 
 /*Footer*/
 
