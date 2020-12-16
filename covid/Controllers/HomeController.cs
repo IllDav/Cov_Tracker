@@ -1,13 +1,13 @@
-﻿using covtest2.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using covidTracker.Models;
 
-namespace covtest2.Controllers
+namespace covidTracker.Controllers
 {
     public class HomeController : Controller
     {
@@ -23,11 +23,12 @@ namespace covtest2.Controllers
             return View();
         }
 
-        public IActionResult idorend()
+        public IActionResult hirek()
         {
             return View();
         }
-        public IActionResult hirek()
+
+        public IActionResult idorend()
         {
             return View();
         }
